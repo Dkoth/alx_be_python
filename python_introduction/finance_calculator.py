@@ -1,10 +1,10 @@
 # Financial Details
-monthly_income = int(input("Enter your monthly_income:"))
-monthly_expenses = int(input("Enter your total monthly_expenses:"))
+monthly income = int(input("Enter your monthly income:"))
+monthly expenses = int(input("Enter your total monthly expenses:"))
 rate = 0.05
 #Calculate Monthly Savings and Project Annual Savings
-monthly_savings = monthly_expenses -  monthly_income
-Projected_savings = Monthly_savings * 12 + (Monthly_savings * 12 * 0.05)
+monthly savings = monthly expenses -  monthly income
+Projected savings = monthly savings * 12 + (monthly savings * 12 * 0.05)
 #Output Results
-print("monthly_savings")
-print("projected_savings")
+print("monthly savings")
+print("projected savings")
