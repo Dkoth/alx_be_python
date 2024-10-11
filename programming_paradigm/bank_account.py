@@ -29,7 +29,7 @@ class BankAccount:
 
     def display_balance(self):
         """Display the current account balance."""
-        print("Current balance: ${:.2f}".format(self.account_balance))
+        print("Current Balance: ${:.2f}".format(self.account_balance))
 
 if __name__ == "__main__":
     # This is just for testing the class independently.
@@ -38,3 +38,4 @@ if __name__ == "__main__":
     account.deposit(50)
     account.withdraw(30)
     account.display_balance()
+
