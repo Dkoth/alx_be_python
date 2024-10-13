@@ -8,7 +8,7 @@ class Book:
 
     #User-friendly representation using str
     def __str__(self):
-        return f"'{self.title}' by {self.author}"
+        return f"Book: {self.title} by {self.author}"
 
 #Inheritance of derived class EBook from Book
 
