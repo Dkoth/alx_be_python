@@ -7,7 +7,7 @@ class Shape:
         #Errors occure because it should be implemented by derived class
         raise NotImplementedError("Subclasses must override this method")
 #Derived classes
-class Rectangle(shape):
+class Rectangle(Shape):
     def __init__(self, length, width):
         self.length = length
         self.width = width
@@ -15,7 +15,7 @@ class Rectangle(shape):
     def area(self):
         return self.length * self.width
 
-    class Circle(shape):
+    class Circle(Shape):
         def __init__(self, radius):
             self.radius - radius
 
