@@ -9,7 +9,7 @@ class Book:
 
     #Deconstructor to display message when the object is deleted
     def __del__(self):
-        print("Deleting (title of the book)")
+        print(f"Deleting {self.title}")
 
     #__str__method for user-friendly string representation
     def __str__(self):
